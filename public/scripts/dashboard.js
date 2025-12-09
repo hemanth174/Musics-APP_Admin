@@ -2,7 +2,7 @@
 // Auto-detect environment: use localhost if available, otherwise use Render
 const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
   ? 'http://localhost:3000'
-  : 'https://crazy-musics-1.onrender.com/users';
+  : 'https://crazy-musics-1.onrender.com';
 
 // State management
 let allUsers = [];
